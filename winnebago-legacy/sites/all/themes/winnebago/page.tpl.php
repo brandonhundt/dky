@@ -1,4 +1,4 @@
-<div id="container" class="clearfix">
+
 
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
@@ -8,6 +8,7 @@
   </div>
 
   <header id="header" role="banner" class="clearfix">
+    <div class="container clearfix">
 	<?php if ($logo): ?>
       <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" id="logo">
         <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
@@ -61,37 +62,34 @@
         <?php endif; ?>
       </nav> <!-- /#navigation -->
     <?php endif; ?>
-    <?php if ($breadcrumb): print $breadcrumb; endif;?>
+  
+    </div>
   </header> <!-- /#header -->
 
   <section id="main" role="main" class="clearfix">
-    <?php print $messages; ?>
+    
     <a id="main-content"></a>
-    <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
-    <?php print render($title_prefix); ?>
-    <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
-    <?php print render($title_suffix); ?>
-    <?php if (!empty($tabs['#primary'])): ?><div class="tabs-wrapper clearfix"><?php print render($tabs); ?></div><?php endif; ?>
-    <?php print render($page['help']); ?>
-    <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
-    <?php print render($page['content']); ?>
+    <div class="section first">
+      <div class="container">
+       <?php print $messages; ?>
+       <?php if (!empty($tabs['#primary'])): ?><div class="tabs-wrapper clearfix"><?php print render($tabs); ?></div><?php endif; ?>
+       <?php print render($page['section_first']); ?>
+      </div>
+    </div>
+    <?php if ($page['section_second']): ?><div class="section second"><div class="container"><?php print render($page['section_second']); ?></div></div><?php endif; ?>
+    <?php if ($page['section_third']): ?><div class="section third"><div class="container"><?php print render($page['section_third']); ?></div></div><?php endif; ?>
+    <?php if ($page['section_fourth']): ?><div class="section fourth"><div class="container"><?php print render($page['section_fourth']); ?></div></div><?php endif; ?>
+    <?php if ($page['section_fifth']): ?><div class="section fifth"><div class="container"><?php print render($page['section_fifth']); ?></div></div><?php endif; ?>
+    <?php if ($page['section_sixth']): ?><div class="section sixth"><div class="container"><?php print render($page['section_sixth']); ?></div></div><?php endif; ?>
+    <?php if ($page['section_seventh']): ?><div class="section seventh"><div class="container"><?php print render($page['section_seventh']); ?></div></div><?php endif; ?>
+    <?php if ($page['section_eigth']): ?><div class="section eigth"><div class="container"><?php print render($page['section_eigth']); ?></div></div><?php endif; ?>
+    <?php if ($page['section_ninth']): ?><div class="section ninth"><div class="container"><?php print render($page['section_ninth']); ?></div></div><?php endif; ?>
   </section> <!-- /#main -->
-  
-  <?php if ($page['sidebar_first']): ?>
-    <aside id="sidebar-first" role="complementary" class="sidebar clearfix">
-      <?php print render($page['sidebar_first']); ?>
-    </aside>  <!-- /#sidebar-first -->
-  <?php endif; ?>
-
-  <?php if ($page['sidebar_second']): ?>
-    <aside id="sidebar-second" role="complementary" class="sidebar clearfix">
-      <?php print render($page['sidebar_second']); ?>
-    </aside>  <!-- /#sidebar-second -->
-  <?php endif; ?>
 
   <footer id="footer" role="contentinfo" class="clearfix">
-    <?php print render($page['footer']) ?>
-    <?php print $feed_icons ?>
+    <div class="container">
+      <?php print render($page['footer']) ?>
+    </div>
   </footer> <!-- /#footer -->
 
 </div> <!-- /#container -->

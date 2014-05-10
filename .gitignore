@@ -13,13 +13,13 @@ winnebago-legacy/sites/*/private
 
 # Ignore default text files
 /winnebago-legacy/robots.txt
-/winnebago-legacy//CHANGELOG.txt
-/winnebago-legacy//COPYRIGHT.txt
-/winnebago-legacy//INSTALL*.txt
-/winnebago-legacy//LICENSE.txt
-/winnebago-legacy//MAINTAINERS.txt
-/winnebago-legacy//UPGRADE.txt
-/winnebago-legacy//README.txt
+/winnebago-legacy/CHANGELOG.txt
+/winnebago-legacy/COPYRIGHT.txt
+/winnebago-legacy/INSTALL*.txt
+/winnebago-legacy/LICENSE.txt
+/winnebago-legacy/MAINTAINERS.txt
+/winnebago-legacy/UPGRADE.txt
+/winnebago-legacy/README.txt
 winnebago-legacy/sites/all/README.txt
 winnebago-legacy/sites/all/modules/README.txt
 winnebago-legacy/sites/all/themes/README.txt

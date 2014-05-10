@@ -2,16 +2,20 @@ name = Winnebago Legacy
 description = Drupal 7 theme for DKY and Winnebago Legacy
 core = 7.x
 engine = phptemplate
-stylesheets[all][] = style.css
+stylesheets[all][] = stylesheets/screen.css
 
-regions[header]         = Header
-regions[navigation]     = Navigation
-regions[highlighted]    = Highlighted
-regions[help]           = Help
-regions[content]        = Content
-regions[sidebar_first]  = First Sidebar
-regions[sidebar_second] = Second Sidebar
-regions[footer]         = Footer
+regions[header]          = Header
+regions[navigation]      = Navigation
+regions[section_first]   = Section First
+regions[section_second]  = Section Second
+regions[section_third]   = Section Third
+regions[section_fourth]  = Section Fourth
+regions[section_fifth]   = Section Fifth
+regions[section_sixth]   = Section Sixth
+regions[section_seventh] = Section Seventh
+regions[section_eigth]   = Section Eigth
+regions[section_ninth]   = Section Ninth
+regions[footer]          = Footer
 
 
 ; Information added by drupal.org packaging script on 2011-11-02
