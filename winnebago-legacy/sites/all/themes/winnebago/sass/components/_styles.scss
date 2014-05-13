@@ -1,2 +1,54 @@
-body {background: #eee;}
-.container {width: 900px; margin: 0 auto;}
+body {
+	background: $lt-gray;
+	font-family: $helvetica;
+	font-size: 100%;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-style: normal;
+  font-weight: bold;
+  color: $drk-gray;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.5;
+  margin-top: 0.75em;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-top: 1em;
+  text-align: center;
+  margin: 0 0 .5em;
+}
+
+h3 {
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin-top: 1.2em;
+}
+
+h4, h5, h6 {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 1.5em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0 0 1.5em 0;
+  color: #555;
+}
+
+a { color: #069; text-decoration: none; }
+a:visited { color: #309; }
+a:hover, a:active, li a.active  { color: #39f; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }

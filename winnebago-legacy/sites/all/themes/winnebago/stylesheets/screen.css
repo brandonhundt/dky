@@ -2,13 +2,181 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 1, ../sass/components/_styles.scss */
-body {
-  background: #eee;
+/* line 17, ../../../../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
-/* line 2, ../sass/components/_styles.scss */
+/* line 22, ../../../../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p429/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/components/_styles.scss */
+body {
+  background: #eeeeee;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../sass/components/_styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-style: normal;
+  font-weight: bold;
+  color: #333333;
+}
+
+/* line 16, ../sass/components/_styles.scss */
+h1 {
+  font-size: 2em;
+  line-height: 1.5;
+  margin-top: 0.75em;
+}
+
+/* line 22, ../sass/components/_styles.scss */
+h2 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-top: 1em;
+  text-align: center;
+  margin: 0 0 .5em;
+}
+
+/* line 30, ../sass/components/_styles.scss */
+h3 {
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin-top: 1.2em;
+}
+
+/* line 36, ../sass/components/_styles.scss */
+h4, h5, h6 {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 1.5em;
+}
+
+/* line 43, ../sass/components/_styles.scss */
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0 0 1.5em 0;
+  color: #555;
+}
+
+/* line 50, ../sass/components/_styles.scss */
+a {
+  color: #069;
+  text-decoration: none;
+}
+
+/* line 51, ../sass/components/_styles.scss */
+a:visited {
+  color: #309;
+}
+
+/* line 52, ../sass/components/_styles.scss */
+a:hover, a:active, li a.active {
+  color: #39f;
+}
+
+/* line 53, ../sass/components/_styles.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 54, ../sass/components/_styles.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 1, ../sass/components/_sections.scss */
+.section {
+  display: block;
+}
+
+/* line 3, ../sass/components/_sections.scss */
+.section.first {
+  background: #fff;
+}
+
+/* line 5, ../sass/components/_sections.scss */
+.section.third {
+  background: #fff;
+}
+
+/* line 7, ../sass/components/_sections.scss */
+.section.fifth {
+  background: #fff;
+}
+
+/* line 9, ../sass/components/_sections.scss */
+.section.seventh {
+  background: #fff;
+}
+
+/* line 11, ../sass/components/_sections.scss */
 .container {
   width: 900px;
   margin: 0 auto;
+  padding: 20px 0;
 }
