@@ -86,10 +86,4 @@
     <?php if ($page['section_ninth']): ?><div class="section ninth"><div class="container"><?php print render($page['section_ninth']); ?></div></div><?php endif; ?>
   </section> <!-- /#main -->
 
-  <footer id="footer" role="contentinfo" class="clearfix">
-    <div class="container">
-      <?php print render($page['footer']) ?>
-    </div>
-  </footer> <!-- /#footer -->
-
 </div> <!-- /#container -->
