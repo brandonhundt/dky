@@ -1,19 +1,31 @@
-
-#header {
-	background: url(../images/bg_header.png) repeat top left;
-	height: 124px;
-	position: relative;
-	z-index: 20;
-}
 #main {max-width: 1400px;}
 
 .section {display: block; position: relative;}
 .section.first {
-	background: url(../images/bg_section1.png) repeat top left;
+	background: url(../images/bg_section1.png) no-repeat top left;
 	margin-top: -5px;
+	height: 429px;
+
+	.field-type-text {display: none;}
 }
-.section.second {background: url(../images/bg_section2.png) repeat top left;}
-.section.third {background: #fff}
+.section.second {
+	background: url(../images/bg_section2.png) repeat top left;
+
+	#block-views-slideshow-block {
+		width: 100%;
+
+		h2 {		
+			background: url(../images/hdr_looking-back.png) no-repeat 0 0;
+			width: 900px;
+			height: 71px;
+			display: inline-block;
+			margin: 0 auto;
+			padding: 0;
+			text-indent: -9999px;
+		}
+	}
+}
+.section.third {background: url(../images/bg_section3.png) repeat top left;}
 .section.fourth {background: #30565b url(../images/bg_section4.png) no-repeat top center;}
 .section.fifth {background: url(../images/bg_section5.png) no-repeat top center;}
 .section.sixth {background: url(../images/bg_section6.png) no-repeat top center;}

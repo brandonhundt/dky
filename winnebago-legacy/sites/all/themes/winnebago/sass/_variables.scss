@@ -1,13 +1,9 @@
 // First, let's create some font stacks.
 $helvetica:       "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
 $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
-$freight:         "freight-sans-pro", $helvetica;
-$sourcesans:	  "Source Sans Pro", $helvetica;
-$alegreya:	  	  "Alegreya Sans", $sourcesans;
-
 
 // Now create some variables for the font stacks we want to use on this site.
-$base-font-family: $sourcesans; // The font family set on the html element.
+$base-font-family: $helvetica; // The font family set on the html element.
 $font-monospace:   $courier;
 
 
@@ -19,3 +15,5 @@ $drk-gray: #333;
 $md-gray: #888;
 $lt-gray: #eee;
 $line-gray: #ddd;
+$teal: #578a81;
+$orange: #e36d22;

@@ -39,3 +39,6 @@ winnebago-legacy/index.php
 /winnebago-legacy/profiles
 /winnebago-legacy/scripts
 /winnebago-legacy/themes
+
+# Ignore asset files
+assets/

@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 1, ../sass/components/_styles.scss */
 body {
-  background: #eeeeee;
+  background: #000;
   font-family: "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   font-size: 100%;
   line-height: 1.5;
@@ -149,7 +149,80 @@ a:hover, a:active {
   outline: 0;
 }
 
-/* line 2, ../sass/components/_sections.scss */
+/* line 1, ../sass/components/_sections.scss */
+#main {
+  max-width: 1400px;
+}
+
+/* line 3, ../sass/components/_sections.scss */
+.section {
+  display: block;
+  position: relative;
+}
+
+/* line 4, ../sass/components/_sections.scss */
+.section.first {
+  background: url(../images/bg_section1.png) no-repeat top left;
+  margin-top: -5px;
+  height: 429px;
+}
+/* line 9, ../sass/components/_sections.scss */
+.section.first .field-type-text {
+  display: none;
+}
+
+/* line 11, ../sass/components/_sections.scss */
+.section.second {
+  background: url(../images/bg_section2.png) repeat top left;
+}
+/* line 14, ../sass/components/_sections.scss */
+.section.second #block-views-slideshow-block {
+  width: 100%;
+}
+/* line 17, ../sass/components/_sections.scss */
+.section.second #block-views-slideshow-block h2 {
+  background: url(../images/hdr_looking-back.png) no-repeat 0 0;
+  width: 900px;
+  height: 71px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  text-indent: -9999px;
+}
+
+/* line 28, ../sass/components/_sections.scss */
+.section.third {
+  background: url(../images/bg_section3.png) repeat top left;
+}
+
+/* line 29, ../sass/components/_sections.scss */
+.section.fourth {
+  background: #30565b url(../images/bg_section4.png) no-repeat top center;
+}
+
+/* line 30, ../sass/components/_sections.scss */
+.section.fifth {
+  background: url(../images/bg_section5.png) no-repeat top center;
+}
+
+/* line 31, ../sass/components/_sections.scss */
+.section.sixth {
+  background: url(../images/bg_section6.png) no-repeat top center;
+}
+
+/* line 32, ../sass/components/_sections.scss */
+.section.seventh {
+  background: url(../images/bg_section7.png) repeat top left;
+}
+
+/* line 34, ../sass/components/_sections.scss */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* line 1, ../sass/components/_header.scss */
 #header {
   background: url(../images/bg_header.png) repeat top left;
   height: 124px;
@@ -157,56 +230,60 @@ a:hover, a:active {
   z-index: 20;
 }
 
-/* line 8, ../sass/components/_sections.scss */
-#main {
-  max-width: 1400px;
+/* line 8, ../sass/components/_header.scss */
+#site-name-slogan {
+  float: left;
+  width: 304px;
 }
 
-/* line 10, ../sass/components/_sections.scss */
-.section {
-  display: block;
-  position: relative;
+/* line 9, ../sass/components/_header.scss */
+h1#site-name {
+  margin-top: 10px;
+}
+/* line 11, ../sass/components/_header.scss */
+h1#site-name a {
+  background: url(../images/logo_main.png) no-repeat 0 0;
+  width: 304px;
+  height: 66px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-indent: -9999px;
 }
 
-/* line 11, ../sass/components/_sections.scss */
-.section.first {
-  background: url(../images/bg_section1.png) repeat top left;
-  margin-top: -5px;
+/* line 22, ../sass/components/_header.scss */
+nav.main-menu {
+  float: left;
+  width: 298px;
+  margin: 0;
+  padding: 0;
 }
-
-/* line 15, ../sass/components/_sections.scss */
-.section.second {
-  background: url(../images/bg_section2.png) repeat top left;
+/* line 28, ../sass/components/_header.scss */
+nav.main-menu .block-title {
+  display: none;
 }
-
-/* line 16, ../sass/components/_sections.scss */
-.section.third {
-  background: #fff;
+/* line 30, ../sass/components/_header.scss */
+nav.main-menu ul {
+  margin: 7px 0 0;
+  padding: 0;
 }
-
-/* line 17, ../sass/components/_sections.scss */
-.section.fourth {
-  background: #30565b url(../images/bg_section4.png) no-repeat top center;
+/* line 31, ../sass/components/_header.scss */
+nav.main-menu ul li {
+  margin: 3px 0;
+  padding: 0;
+  float: left;
+  width: 50%;
+  list-style: none;
+  text-align: center;
 }
-
-/* line 18, ../sass/components/_sections.scss */
-.section.fifth {
-  background: url(../images/bg_section5.png) no-repeat top center;
+/* line 32, ../sass/components/_header.scss */
+nav.main-menu ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #578a81;
 }
-
-/* line 19, ../sass/components/_sections.scss */
-.section.sixth {
-  background: url(../images/bg_section6.png) no-repeat top center;
-}
-
-/* line 20, ../sass/components/_sections.scss */
-.section.seventh {
-  background: url(../images/bg_section7.png) repeat top left;
-}
-
-/* line 22, ../sass/components/_sections.scss */
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px 0;
+/* line 33, ../sass/components/_header.scss */
+nav.main-menu ul li a:hover, nav.main-menu ul li a:active {
+  color: #e36d22;
 }

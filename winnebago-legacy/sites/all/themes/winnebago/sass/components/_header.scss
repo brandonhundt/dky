@@ -1,0 +1,36 @@
+#header {
+	background: url(../images/bg_header.png) repeat top left;
+	height: 124px;
+	position: relative;
+	z-index: 20;
+}
+
+#site-name-slogan {float: left; width: 304px;}
+h1#site-name {
+	margin-top: 10px;
+	a {
+		background: url(../images/logo_main.png) no-repeat 0 0;
+		width: 304px;
+		height: 66px;
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		text-indent: -9999px;
+	}
+}
+
+nav.main-menu {
+	float: left;
+	width: 298px;
+	margin: 0;
+	padding: 0;
+
+	.block-title {display: none;}
+
+	ul {margin: 7px 0 0; padding: 0;
+	  li {margin: 3px 0; padding: 0; float: left; width: 50%; list-style: none; text-align: center; 
+	  	a {font-weight: bold; text-transform: uppercase; font-size: 18px; color: $teal; }
+	  	a:hover, a:active {color: $orange;} 
+	  }
+	}
+}
