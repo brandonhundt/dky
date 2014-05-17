@@ -4,11 +4,11 @@ $opensans:		  "Open Sans", $helvetica;
 $opensanscond:	  "Open Sans Condensed", $opensans;
 $raleway:		  "Raleway", $opensans;
 $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
+$domine:		  "Domine", $courier;
 
 // Now create some variables for the font stacks we want to use on this site.
 $base-font-family: $opensans; // The font family set on the html element.
 $font-monospace:   $courier;
-
 
 //
 // Colors
@@ -21,3 +21,4 @@ $line-gray: #ddd;
 $teal: #578a81;
 $orange: #e36d22;
 $dk-green: #46504f;
+$yellow: #ebd29e;

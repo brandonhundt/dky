@@ -2,14 +2,14 @@
 
 .section {display: block; position: relative;}
 .section.first {
-	background: url(../images/bg_section1.png) no-repeat top left;
+	background: url(../images/bg_section1.png) no-repeat top center;
 	margin-top: -5px;
 	height: 429px;
 
 	.field-type-text {display: none;}
 }
 .section.second {
-	background: url(../images/bg_section2.png) repeat top left;
+	background: url(../images/bg_section2.png) repeat top center;
 
 	#block-views-slideshow-block {
 		width: 100%;
@@ -25,11 +25,72 @@
 		}
 	}
 }
-.section.third {background: url(../images/bg_section3.png) repeat top left;}
-.section.fourth {background: #30565b url(../images/bg_section4.png) no-repeat top center;}
-.section.fifth {background: url(../images/bg_section5.png) no-repeat top center;}
-.section.sixth {background: url(../images/bg_section6.png) no-repeat top center;}
-.section.seventh {background: url(../images/bg_section7.png) repeat top left;}
+.section.third {background: url(../images/bg_section3.png) repeat top center; font-family: $domine; height: 574px;
+		h2 {		
+			background: url(../images/hdr_tell-story.png) no-repeat 0 0;
+			width: 900px;
+			height: 91px;
+			display: inline-block;
+			margin: 0 auto;
+			padding: 0;
+			text-indent: -9999px;
+		}
+		img {float: right;}
+}
+.section.fourth {background: #30565b url(../images/bg_section4.png) no-repeat top center; height: 501px;
+		h2 {		
+			background: url(../images/hdr_join-crew.png) no-repeat 0 0;
+			width: 900px;
+			height: 76px;
+			display: inline-block;
+			margin: 0 auto;
+			padding: 0;
+			text-indent: -9999px;
+		}
+		img {float: right;}
+		h3, p {color: #f5f5f5;}
+		.read-more {
+			background: url(../images/btn_crew.png) no-repeat 0 0;
+			width: 193px;
+			height: 84px;
+			display: inline-block;
+			margin: 0 auto;
+			padding: 0;
+			text-indent: -9999px;
+			position: absolute;
+			top: 377px;
+			right: 18px;
+		}
+}
+.section.fifth {background: url(../images/bg_section5.png) no-repeat top center;
+		h2 {		
+			background: url(../images/hdr_how-far.png) no-repeat 0 0;
+			width: 900px;
+			height: 88px;
+			display: inline-block;
+			margin: 0 auto;
+			padding: 0;
+			text-indent: -9999px;
+		}
+}
+.section.sixth {background: url(../images/bg_section6.png) no-repeat top center; height: 645px;
+		h2 {		
+			background: url(../images/hdr_then-now.png) no-repeat 0 0;
+			width: 900px;
+			height: 117px;
+			display: inline-block;
+			margin: 0 auto;
+			padding: 0;
+			text-indent: -9999px;
+		}
+		h3 {color: $yellow; margin-top: 60px;}
+		p {color: #f5f5f5; margin-top: 10px;}
+		h3, p {
+			width: 350px;
+			margin-left: 480px;
+		}
+}		
+.section.seventh {background: url(../images/bg_section7.png) repeat top center;}
 
 .container {
 	max-width: 900px; 
