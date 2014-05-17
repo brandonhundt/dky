@@ -1,0 +1,42 @@
+.jcarousel-navigation {
+	display: none;
+}
+.view-slideshow {
+	.overlay {
+		position: absolute;
+		background: url(../images/bg_slider-overlay.png) no-repeat 0 0;
+		width: 899px;
+		height: 262px;
+		top: 127px;
+		left: 0;
+		z-index: 20;
+	}	
+
+	.jcarousel-skin-default {
+		.jcarousel-container-horizontal,
+		.jcarousel-clip-horizontal  {
+			width: 760px;
+			height: 226px;
+		}
+		.jcarousel-item-horizontal {
+			border: none;
+			height: 226px;
+			margin: 0 10px;
+		}
+		.jcarousel-prev,
+		.jcarousel-next {
+			width: 49px;
+			height: 77px;
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			text-indent: -9999px;
+			cursor: pointer;
+			top: 88px;
+			z-index: 40;
+		}
+		
+		.jcarousel-prev {background: url(../images/btn_arrow_wh-left.png) no-repeat 0 0; left: -50px;}
+		.jcarousel-next {background: url(../images/btn_arrow_wh-right.png) no-repeat 0 0; right: -50px;}	
+	}
+}

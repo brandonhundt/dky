@@ -1,4 +1,4 @@
-#main {max-width: 1400px;}
+#main {max-width: 1400px; min-width: 900px;}
 
 .section {display: block; position: relative;}
 .section.first {
@@ -73,7 +73,7 @@
 			text-indent: -9999px;
 		}
 }
-.section.sixth {background: url(../images/bg_section6.png) no-repeat top center; height: 645px;
+.section.sixth {background: url(../images/bg_section6.png) no-repeat top center; height: 642px;
 		h2 {		
 			background: url(../images/hdr_then-now.png) no-repeat 0 0;
 			width: 900px;
@@ -86,14 +86,38 @@
 		h3 {color: $yellow; margin-top: 60px;}
 		p {color: #f5f5f5; margin-top: 10px;}
 		h3, p {
-			width: 350px;
-			margin-left: 480px;
+			width: 360px;
+			margin-left: 470px;
 		}
+		.s6-btn {
+			
+			width: 175px;
+			height: 61px;
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			text-indent: -9999px;
+			cursor: pointer;
+		}
+		.tribute {background: url(../images/btn_see-tribute.png) no-repeat 0 0; float: left; margin: 0 10px 0 0;}
+		.brave {background: url(../images/btn_see-brave.png) no-repeat 0 0; float: right;}
+
 }		
-.section.seventh {background: url(../images/bg_section7.png) repeat top center;}
+.section.seventh {background: url(../images/bg_section7.png) repeat top center; height: 450px;
+		h2 {		
+			background: url(../images/hdr_ads.png) no-repeat 0 0;
+			width: 900px;
+			height: 90px;
+			display: inline-block;
+			margin: 0 auto;
+			padding: 0;
+			text-indent: -9999px;
+		}
+		.content {margin: 20px 0 0;}
+}
 
 .container {
-	max-width: 900px; 
+	width: 900px; 
 	margin: 0 auto;
 	padding: 20px 0;
 }
