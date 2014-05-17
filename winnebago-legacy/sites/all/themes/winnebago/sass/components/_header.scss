@@ -29,7 +29,7 @@ nav.main-menu {
 
 	ul {margin: 7px 0 0; padding: 0;
 	  li {margin: 3px 0; padding: 0; float: left; width: 50%; list-style: none; text-align: center; 
-	  	a {font-weight: bold; text-transform: uppercase; font-size: 18px; color: $teal; }
+	  	a {font-weight: 900; text-transform: uppercase; font-size: 18px; color: $teal; font-family: $raleway;}
 	  	a:hover, a:active {color: $orange;} 
 	  }
 	}

@@ -70,7 +70,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 1, ../sass/components/_styles.scss */
 body {
   background: #000;
-  font-family: "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   font-size: 100%;
   line-height: 1.5;
   margin: 0;
@@ -79,19 +79,20 @@ body {
 
 /* line 10, ../sass/components/_styles.scss */
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 900;
   color: #333333;
 }
 
-/* line 16, ../sass/components/_styles.scss */
+/* line 17, ../sass/components/_styles.scss */
 h1 {
   font-size: 2em;
   line-height: 1.5;
   margin-top: 0.75em;
 }
 
-/* line 22, ../sass/components/_styles.scss */
+/* line 23, ../sass/components/_styles.scss */
 h2 {
   font-size: 1.5em;
   line-height: 1;
@@ -100,14 +101,15 @@ h2 {
   margin: 0 0 .5em;
 }
 
-/* line 30, ../sass/components/_styles.scss */
+/* line 31, ../sass/components/_styles.scss */
 h3 {
   font-size: 1.25em;
   line-height: 1.2;
   margin-top: 1.2em;
+  color: #46504f;
 }
 
-/* line 36, ../sass/components/_styles.scss */
+/* line 38, ../sass/components/_styles.scss */
 h4, h5, h6 {
   font-size: 1em;
   font-weight: bold;
@@ -115,7 +117,7 @@ h4, h5, h6 {
   margin-top: 1.5em;
 }
 
-/* line 43, ../sass/components/_styles.scss */
+/* line 45, ../sass/components/_styles.scss */
 p {
   font-size: 1em;
   line-height: 1.5;
@@ -123,28 +125,28 @@ p {
   color: #555;
 }
 
-/* line 50, ../sass/components/_styles.scss */
+/* line 52, ../sass/components/_styles.scss */
 a {
   color: #069;
   text-decoration: none;
 }
 
-/* line 51, ../sass/components/_styles.scss */
+/* line 53, ../sass/components/_styles.scss */
 a:visited {
   color: #309;
 }
 
-/* line 52, ../sass/components/_styles.scss */
+/* line 54, ../sass/components/_styles.scss */
 a:hover, a:active, li a.active {
   color: #39f;
 }
 
-/* line 53, ../sass/components/_styles.scss */
+/* line 55, ../sass/components/_styles.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 54, ../sass/components/_styles.scss */
+/* line 56, ../sass/components/_styles.scss */
 a:hover, a:active {
   outline: 0;
 }
@@ -183,7 +185,7 @@ a:hover, a:active {
 .section.second #block-views-slideshow-block h2 {
   background: url(../images/hdr_looking-back.png) no-repeat 0 0;
   width: 900px;
-  height: 71px;
+  height: 109px;
   display: inline-block;
   margin: 0 auto;
   padding: 0;
@@ -278,12 +280,81 @@ nav.main-menu ul li {
 }
 /* line 32, ../sass/components/_header.scss */
 nav.main-menu ul li a {
-  font-weight: bold;
+  font-weight: 900;
   text-transform: uppercase;
   font-size: 18px;
   color: #578a81;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
 }
 /* line 33, ../sass/components/_header.scss */
 nav.main-menu ul li a:hover, nav.main-menu ul li a:active {
   color: #e36d22;
+}
+
+/* line 1, ../sass/components/_slideshow.scss */
+.views_slideshow {
+  position: relative;
+}
+
+/* line 5, ../sass/components/_slideshow.scss */
+.slide-description {
+  position: absolute;
+  top: 0px;
+  right: 26px;
+  background: url(../images/bg_lookback-text.png) no-repeat top left;
+  width: 310px;
+  height: 386px;
+  z-index: 20;
+}
+
+/* line 15, ../sass/components/_slideshow.scss */
+.rotation {
+  transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+  -o-transform: rotate(4deg);
+  padding: 26px 0 0 73px;
+  width: 180px;
+}
+
+/* line 25, ../sass/components/_slideshow.scss */
+.field_slide_title {
+  font-size: 16px;
+}
+
+/* line 26, ../sass/components/_slideshow.scss */
+.field_slide_description {
+  font-size: 15px;
+}
+
+/* line 31, ../sass/components/_slideshow.scss */
+.views-slideshow-controls-text-pause {
+  display: none;
+}
+
+/* line 33, ../sass/components/_slideshow.scss */
+#views_slideshow_controls_text_previous_slideshow-block a,
+#views_slideshow_controls_text_next_slideshow-block a {
+  position: absolute;
+  top: 209px;
+  width: 104px;
+  height: 120px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-indent: -9999px;
+  z-index: 40;
+}
+
+/* line 44, ../sass/components/_slideshow.scss */
+#views_slideshow_controls_text_previous_slideshow-block a {
+  background: url(../images/bg_arrow-orange-left.png) no-repeat 0 0;
+  left: -29px;
+}
+
+/* line 45, ../sass/components/_slideshow.scss */
+#views_slideshow_controls_text_next_slideshow-block a {
+  background: url(../images/bg_arrow-orange-rt.png) no-repeat 0 0;
+  right: -29px;
 }

@@ -1,9 +1,12 @@
 // First, let's create some font stacks.
 $helvetica:       "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+$opensans:		  "Open Sans", $helvetica;
+$opensanscond:	  "Open Sans Condensed", $opensans;
+$raleway:		  "Raleway", $opensans;
 $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
 
 // Now create some variables for the font stacks we want to use on this site.
-$base-font-family: $helvetica; // The font family set on the html element.
+$base-font-family: $opensans; // The font family set on the html element.
 $font-monospace:   $courier;
 
 
@@ -17,3 +20,4 @@ $lt-gray: #eee;
 $line-gray: #ddd;
 $teal: #578a81;
 $orange: #e36d22;
+$dk-green: #46504f;
