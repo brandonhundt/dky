@@ -1,0 +1,14 @@
+div#colorbox {
+	background: eee;
+	background: url(../images/bg_section3.png) repeat top center; 
+	font-family: $domine;
+
+	#cboxWrapper {background: none;}
+	#cboxContent {
+		background: $cream;
+		padding: 10px;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+}

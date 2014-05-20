@@ -25,7 +25,8 @@
 		}
 	}
 }
-.section.third {background: url(../images/bg_section3.png) repeat top center; font-family: $domine; height: 574px;
+.section.third {
+	background: url(../images/bg_section3.png) repeat top center; font-family: $domine; height: 574px;
 		h2 {		
 			background: url(../images/hdr_tell-story.png) no-repeat 0 0;
 			width: 900px;
@@ -36,6 +37,29 @@
 			text-indent: -9999px;
 		}
 		img {float: right;}
+		.views-field-field-quote-author {
+			background: $cream;
+			padding: 20px;
+			margin: 20px 0 0;
+			width: 395px;
+			border-radius: 10px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+
+			.quote {color: $teal;}
+			.author {margin: 0; color: $orange;}
+		}
+		.button {
+			
+			width: 192px;
+			height: 79px;
+			display: inline-block;
+			margin: 15px 15px 0 0;
+			padding: 0;
+			text-indent: -9999px;
+		}
+		.button.tell-story {background: url(../images/btn_write-story.png) no-repeat 0 0;}
+		.button.read-stories {background: url(../images/btn_all-stories.png) no-repeat 0 0;}
 }
 .section.fourth {background: #30565b url(../images/bg_section4.png) no-repeat top center; height: 501px;
 		h2 {		

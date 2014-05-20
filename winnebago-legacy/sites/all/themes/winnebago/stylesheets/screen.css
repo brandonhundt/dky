@@ -151,6 +151,11 @@ a:hover, a:active {
   outline: 0;
 }
 
+/* line 58, ../sass/components/_styles.scss */
+ul.tips {
+  font-size: .75em;
+}
+
 /* line 1, ../sass/components/_sections.scss */
 #main {
   max-width: 1400px;
@@ -199,7 +204,7 @@ a:hover, a:active {
   font-family: "Domine", "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
   height: 574px;
 }
-/* line 29, ../sass/components/_sections.scss */
+/* line 30, ../sass/components/_sections.scss */
 .section.third h2 {
   background: url(../images/hdr_tell-story.png) no-repeat 0 0;
   width: 900px;
@@ -209,17 +214,53 @@ a:hover, a:active {
   padding: 0;
   text-indent: -9999px;
 }
-/* line 38, ../sass/components/_sections.scss */
+/* line 39, ../sass/components/_sections.scss */
 .section.third img {
   float: right;
 }
-
 /* line 40, ../sass/components/_sections.scss */
+.section.third .views-field-field-quote-author {
+  background: #f9f7f0;
+  padding: 20px;
+  margin: 20px 0 0;
+  width: 395px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+/* line 49, ../sass/components/_sections.scss */
+.section.third .views-field-field-quote-author .quote {
+  color: #578a81;
+}
+/* line 50, ../sass/components/_sections.scss */
+.section.third .views-field-field-quote-author .author {
+  margin: 0;
+  color: #e36d22;
+}
+/* line 52, ../sass/components/_sections.scss */
+.section.third .button {
+  width: 192px;
+  height: 79px;
+  display: inline-block;
+  margin: 15px 15px 0 0;
+  padding: 0;
+  text-indent: -9999px;
+}
+/* line 61, ../sass/components/_sections.scss */
+.section.third .button.tell-story {
+  background: url(../images/btn_write-story.png) no-repeat 0 0;
+}
+/* line 62, ../sass/components/_sections.scss */
+.section.third .button.read-stories {
+  background: url(../images/btn_all-stories.png) no-repeat 0 0;
+}
+
+/* line 64, ../sass/components/_sections.scss */
 .section.fourth {
   background: #30565b url(../images/bg_section4.png) no-repeat top center;
   height: 501px;
 }
-/* line 41, ../sass/components/_sections.scss */
+/* line 65, ../sass/components/_sections.scss */
 .section.fourth h2 {
   background: url(../images/hdr_join-crew.png) no-repeat 0 0;
   width: 900px;
@@ -229,15 +270,15 @@ a:hover, a:active {
   padding: 0;
   text-indent: -9999px;
 }
-/* line 50, ../sass/components/_sections.scss */
+/* line 74, ../sass/components/_sections.scss */
 .section.fourth img {
   float: right;
 }
-/* line 51, ../sass/components/_sections.scss */
+/* line 75, ../sass/components/_sections.scss */
 .section.fourth h3, .section.fourth p {
   color: #f5f5f5;
 }
-/* line 52, ../sass/components/_sections.scss */
+/* line 76, ../sass/components/_sections.scss */
 .section.fourth .read-more {
   background: url(../images/btn_crew.png) no-repeat 0 0;
   width: 193px;
@@ -251,11 +292,11 @@ a:hover, a:active {
   right: 18px;
 }
 
-/* line 65, ../sass/components/_sections.scss */
+/* line 89, ../sass/components/_sections.scss */
 .section.fifth {
   background: url(../images/bg_section5.png) no-repeat top center;
 }
-/* line 66, ../sass/components/_sections.scss */
+/* line 90, ../sass/components/_sections.scss */
 .section.fifth h2 {
   background: url(../images/hdr_how-far.png) no-repeat 0 0;
   width: 900px;
@@ -266,12 +307,12 @@ a:hover, a:active {
   text-indent: -9999px;
 }
 
-/* line 76, ../sass/components/_sections.scss */
+/* line 100, ../sass/components/_sections.scss */
 .section.sixth {
   background: url(../images/bg_section6.png) no-repeat top center;
   height: 642px;
 }
-/* line 77, ../sass/components/_sections.scss */
+/* line 101, ../sass/components/_sections.scss */
 .section.sixth h2 {
   background: url(../images/hdr_then-now.png) no-repeat 0 0;
   width: 900px;
@@ -281,22 +322,22 @@ a:hover, a:active {
   padding: 0;
   text-indent: -9999px;
 }
-/* line 86, ../sass/components/_sections.scss */
+/* line 110, ../sass/components/_sections.scss */
 .section.sixth h3 {
   color: #ebd29e;
   margin-top: 60px;
 }
-/* line 87, ../sass/components/_sections.scss */
+/* line 111, ../sass/components/_sections.scss */
 .section.sixth p {
   color: #f5f5f5;
   margin-top: 10px;
 }
-/* line 88, ../sass/components/_sections.scss */
+/* line 112, ../sass/components/_sections.scss */
 .section.sixth h3, .section.sixth p {
   width: 360px;
   margin-left: 470px;
 }
-/* line 92, ../sass/components/_sections.scss */
+/* line 116, ../sass/components/_sections.scss */
 .section.sixth .s6-btn {
   width: 175px;
   height: 61px;
@@ -306,24 +347,24 @@ a:hover, a:active {
   text-indent: -9999px;
   cursor: pointer;
 }
-/* line 102, ../sass/components/_sections.scss */
+/* line 126, ../sass/components/_sections.scss */
 .section.sixth .tribute {
   background: url(../images/btn_see-tribute.png) no-repeat 0 0;
   float: left;
   margin: 0 10px 0 0;
 }
-/* line 103, ../sass/components/_sections.scss */
+/* line 127, ../sass/components/_sections.scss */
 .section.sixth .brave {
   background: url(../images/btn_see-brave.png) no-repeat 0 0;
   float: right;
 }
 
-/* line 106, ../sass/components/_sections.scss */
+/* line 130, ../sass/components/_sections.scss */
 .section.seventh {
   background: url(../images/bg_section7.png) repeat top center;
   height: 450px;
 }
-/* line 107, ../sass/components/_sections.scss */
+/* line 131, ../sass/components/_sections.scss */
 .section.seventh h2 {
   background: url(../images/hdr_ads.png) no-repeat 0 0;
   width: 900px;
@@ -333,12 +374,12 @@ a:hover, a:active {
   padding: 0;
   text-indent: -9999px;
 }
-/* line 116, ../sass/components/_sections.scss */
+/* line 140, ../sass/components/_sections.scss */
 .section.seventh .content {
   margin: 20px 0 0;
 }
 
-/* line 119, ../sass/components/_sections.scss */
+/* line 143, ../sass/components/_sections.scss */
 .container {
   width: 900px;
   margin: 0 auto;
@@ -497,15 +538,17 @@ nav.main-menu ul li a:hover, nav.main-menu ul li a:active {
   display: none;
 }
 
-/* line 5, ../sass/components/_slider.scss */
-.view-slideshow .overlay {
-  position: absolute;
-  background: url(../images/bg_slider-overlay.png) no-repeat 0 0;
-  width: 899px;
-  height: 262px;
-  top: 127px;
-  left: 0;
-  z-index: 20;
+/* line 4, ../sass/components/_slider.scss */
+.view-slideshow {
+  /*.overlay {
+  	position: absolute;
+  	background: url(../images/bg_slider-overlay.png) no-repeat 0 0;
+  	width: 899px;
+  	height: 262px;
+  	top: 127px;
+  	left: 0;
+  	z-index: 20;
+  }	*/
 }
 /* line 17, ../sass/components/_slider.scss */
 .view-slideshow .jcarousel-skin-default .jcarousel-container-horizontal,
@@ -541,4 +584,23 @@ nav.main-menu ul li a:hover, nav.main-menu ul li a:active {
 .view-slideshow .jcarousel-skin-default .jcarousel-next {
   background: url(../images/btn_arrow_wh-right.png) no-repeat 0 0;
   right: -50px;
+}
+
+/* line 1, ../sass/components/_colorbox.scss */
+div#colorbox {
+  background: eee;
+  background: url(../images/bg_section3.png) repeat top center;
+  font-family: "Domine", "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
+}
+/* line 6, ../sass/components/_colorbox.scss */
+div#colorbox #cboxWrapper {
+  background: none;
+}
+/* line 7, ../sass/components/_colorbox.scss */
+div#colorbox #cboxContent {
+  background: #f9f7f0;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
