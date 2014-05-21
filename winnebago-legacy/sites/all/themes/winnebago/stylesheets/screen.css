@@ -78,6 +78,12 @@ body {
 }
 
 /* line 10, ../sass/components/_styles.scss */
+body.not-front {
+  background: url(../images/bg_section3.png) repeat top center;
+  font-family: "Domine", "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
+}
+
+/* line 15, ../sass/components/_styles.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   font-style: normal;
@@ -85,14 +91,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #333333;
 }
 
-/* line 17, ../sass/components/_styles.scss */
+/* line 22, ../sass/components/_styles.scss */
 h1 {
   font-size: 2em;
   line-height: 1.5;
   margin-top: 0.75em;
 }
 
-/* line 23, ../sass/components/_styles.scss */
+/* line 28, ../sass/components/_styles.scss */
 h2 {
   font-size: 1.5em;
   line-height: 1;
@@ -101,7 +107,7 @@ h2 {
   margin: 0 0 .5em;
 }
 
-/* line 31, ../sass/components/_styles.scss */
+/* line 36, ../sass/components/_styles.scss */
 h3 {
   font-size: 1.25em;
   line-height: 1.2;
@@ -109,7 +115,7 @@ h3 {
   color: #46504f;
 }
 
-/* line 38, ../sass/components/_styles.scss */
+/* line 43, ../sass/components/_styles.scss */
 h4, h5, h6 {
   font-size: 1em;
   font-weight: bold;
@@ -117,7 +123,7 @@ h4, h5, h6 {
   margin-top: 1.5em;
 }
 
-/* line 45, ../sass/components/_styles.scss */
+/* line 50, ../sass/components/_styles.scss */
 p {
   font-size: 1em;
   line-height: 1.5;
@@ -125,33 +131,33 @@ p {
   color: #555;
 }
 
-/* line 52, ../sass/components/_styles.scss */
+/* line 57, ../sass/components/_styles.scss */
 a {
   color: #069;
   text-decoration: none;
 }
 
-/* line 53, ../sass/components/_styles.scss */
+/* line 58, ../sass/components/_styles.scss */
 a:visited {
   color: #309;
 }
 
-/* line 54, ../sass/components/_styles.scss */
+/* line 59, ../sass/components/_styles.scss */
 a:hover, a:active, li a.active {
   color: #39f;
 }
 
-/* line 55, ../sass/components/_styles.scss */
+/* line 60, ../sass/components/_styles.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 56, ../sass/components/_styles.scss */
+/* line 61, ../sass/components/_styles.scss */
 a:hover, a:active {
   outline: 0;
 }
 
-/* line 58, ../sass/components/_styles.scss */
+/* line 63, ../sass/components/_styles.scss */
 ul.tips {
   font-size: .75em;
 }
@@ -169,13 +175,13 @@ ul.tips {
 }
 
 /* line 4, ../sass/components/_sections.scss */
-.section.first {
+.front .section.first {
   background: url(../images/bg_section1.png) no-repeat top center;
   margin-top: -5px;
   height: 429px;
 }
 /* line 9, ../sass/components/_sections.scss */
-.section.first .field-type-text {
+.front .section.first .field-type-text {
   display: none;
 }
 
@@ -588,19 +594,55 @@ nav.main-menu ul li a:hover, nav.main-menu ul li a:active {
 
 /* line 1, ../sass/components/_colorbox.scss */
 div#colorbox {
-  background: eee;
   background: url(../images/bg_section3.png) repeat top center;
   font-family: "Domine", "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
 }
-/* line 6, ../sass/components/_colorbox.scss */
+/* line 5, ../sass/components/_colorbox.scss */
 div#colorbox #cboxWrapper {
   background: none;
 }
-/* line 7, ../sass/components/_colorbox.scss */
+/* line 6, ../sass/components/_colorbox.scss */
 div#colorbox #cboxContent {
   background: #f9f7f0;
   padding: 10px;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
+}
+
+/* line 2, ../sass/components/_stories.scss */
+.view-stories .views-row {
+  background: #f9f7f0;
+  padding: 30px 20px 20px;
+  margin: 0 0 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+/* line 11, ../sass/components/_stories.scss */
+.view-stories h2 {
+  text-align: left;
+}
+/* line 13, ../sass/components/_stories.scss */
+.view-stories .views-field-field-fullname,
+.view-stories .views-field-created {
+  display: inline-block;
+  color: #888;
+  font-style: italic;
+  font-size: .85em;
+  margin: 0 0 1em;
+}
+/* line 15, ../sass/components/_stories.scss */
+.view-stories .views-field-field-fullname .views-label,
+.view-stories .views-field-field-fullname .field-content,
+.view-stories .views-field-created .views-label,
+.view-stories .views-field-created .field-content {
+  display: inline-block;
+}
+/* line 18, ../sass/components/_stories.scss */
+.view-stories .pager a {
+  background: #bfd553;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
 }

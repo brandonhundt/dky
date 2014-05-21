@@ -7,6 +7,11 @@ body {
 	padding: 0;
 }
 
+body.not-front {
+  background: url(../images/bg_section3.png) repeat top center; 
+  font-family: $domine;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $raleway;
   font-style: normal;

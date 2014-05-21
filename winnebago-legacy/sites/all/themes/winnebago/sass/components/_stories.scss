@@ -1,0 +1,19 @@
+.view-stories {
+	.views-row {
+		background: $cream;
+		padding: 30px 20px 20px;
+		margin: 0 0 20px;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+
+	h2 {text-align: left;}
+	.views-field-field-fullname,
+	.views-field-created {display: inline-block; color: #888; font-style: italic; font-size: .85em; margin: 0 0 1em;
+		.views-label,
+		.field-content {display: inline-block;}
+	}
+
+	.pager a {background: #bfd553; color: #fff; text-decoration: none; padding: 5px;}
+}
