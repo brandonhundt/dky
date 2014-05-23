@@ -28,7 +28,7 @@ function zurb_twentytwenty_field_formatter_info() {
       'field types' => array('image'),
       'settings'    => array(
         'image_style' => '',
-        'default_offset_pct' => '0.5',
+        'default_offset_pct' => '0.4',
       ),
     ),
   );
