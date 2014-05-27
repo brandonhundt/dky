@@ -9,12 +9,8 @@
   <meta name="viewport" content="width=device-width" />
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
-  <link href="/sites/all/libraries/twentytwenty/css/twentytwenty.css" rel="stylesheet" type="text/css" /> 
   <?php print $scripts; ?>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:400italic,700italic,400,700,800|Raleway:900,800|Domine' rel='stylesheet' type='text/css'>
-  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script src="/sites/all/libraries/twentytwenty/js/jquery.event.move.js"></script>
-  <script src="/sites/all/libraries/twentytwenty/js/jquery.twentytwenty.js"></script>
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,10 +22,5 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-jQuery(window).load(function () { jQuery(".twentytwenty-container").twentytwenty({default_offset_pct: 0.4}); });
-//--><!]]>
-</script>
 </body>
 </html>

@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 1, ../sass/components/_styles.scss */
 body {
-  background: #000;
+  background: #333;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   font-size: 100%;
   line-height: 1.5;
@@ -162,10 +162,19 @@ ul.tips {
   font-size: .75em;
 }
 
+/* line 65, ../sass/components/_styles.scss */
+.anchor {
+  display: block;
+  position: relative;
+  top: -180px;
+  visibility: hidden;
+}
+
 /* line 1, ../sass/components/_sections.scss */
 #main {
   max-width: 1400px;
   min-width: 900px;
+  margin: 0 auto;
 }
 
 /* line 3, ../sass/components/_sections.scss */
@@ -177,7 +186,7 @@ ul.tips {
 /* line 4, ../sass/components/_sections.scss */
 .front .section.first {
   background: url(../images/bg_section1.png) no-repeat top center;
-  margin-top: -5px;
+  margin-top: 30px;
   height: 429px;
 }
 /* line 9, ../sass/components/_sections.scss */
@@ -396,21 +405,33 @@ ul.tips {
 #header {
   background: url(../images/bg_header.png) repeat top center;
   height: 124px;
-  position: relative;
-  z-index: 20;
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  top: 0;
 }
 
-/* line 8, ../sass/components/_header.scss */
+/* line 10, ../sass/components/_header.scss */
+.logged-in.toolbar.toolbar-drawer #header {
+  top: 65px;
+}
+
+/* line 11, ../sass/components/_header.scss */
+.logged-in.toolbar #header {
+  top: 30px;
+}
+
+/* line 13, ../sass/components/_header.scss */
 #site-name-slogan {
   float: left;
   width: 304px;
 }
 
-/* line 9, ../sass/components/_header.scss */
+/* line 14, ../sass/components/_header.scss */
 h1#site-name {
   margin-top: 10px;
 }
-/* line 11, ../sass/components/_header.scss */
+/* line 16, ../sass/components/_header.scss */
 h1#site-name a {
   background: url(../images/logo_main.png) no-repeat 0 0;
   width: 304px;
@@ -421,23 +442,23 @@ h1#site-name a {
   text-indent: -9999px;
 }
 
-/* line 22, ../sass/components/_header.scss */
+/* line 27, ../sass/components/_header.scss */
 nav.main-menu {
   float: left;
   width: 298px;
   margin: 0;
   padding: 0;
 }
-/* line 28, ../sass/components/_header.scss */
+/* line 33, ../sass/components/_header.scss */
 nav.main-menu .block-title {
   display: none;
 }
-/* line 30, ../sass/components/_header.scss */
+/* line 35, ../sass/components/_header.scss */
 nav.main-menu ul {
-  margin: 7px 0 0;
+  margin: 10px 0 0;
   padding: 0;
 }
-/* line 31, ../sass/components/_header.scss */
+/* line 36, ../sass/components/_header.scss */
 nav.main-menu ul li {
   margin: 3px 0;
   padding: 0;
@@ -446,15 +467,15 @@ nav.main-menu ul li {
   list-style: none;
   text-align: center;
 }
-/* line 32, ../sass/components/_header.scss */
+/* line 37, ../sass/components/_header.scss */
 nav.main-menu ul li a {
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 16px;
   color: #578a81;
   font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
 }
-/* line 33, ../sass/components/_header.scss */
+/* line 38, ../sass/components/_header.scss */
 nav.main-menu ul li a:hover, nav.main-menu ul li a:active {
   color: #e36d22;
 }
@@ -645,4 +666,33 @@ div#colorbox #cboxContent {
   color: #fff;
   text-decoration: none;
   padding: 5px;
+}
+
+/* line 2, ../sass/components/_footer.scss */
+#footer h2 {
+  display: none;
+}
+/* line 4, ../sass/components/_footer.scss */
+#footer ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 8, ../sass/components/_footer.scss */
+#footer ul li {
+  margin: 0;
+  padding: 0;
+}
+/* line 9, ../sass/components/_footer.scss */
+#footer ul li.leaf {
+  list-style: none;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  text-align: center;
+}
+/* line 10, ../sass/components/_footer.scss */
+#footer ul li.leaf a {
+  color: #578a81;
+}
+/* line 11, ../sass/components/_footer.scss */
+#footer ul li.leaf a:hover {
+  color: #e36d22;
 }

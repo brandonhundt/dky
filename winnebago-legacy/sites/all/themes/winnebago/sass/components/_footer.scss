@@ -1,0 +1,14 @@
+#footer {
+	h2 {display: none;}
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+	  li {margin: 0; padding: 0;}
+	  li.leaf {list-style: none; font-family: $raleway; text-align: center;
+	  	a {color: $teal;}
+	  	a:hover {color: $orange;}
+	  }
+	}
+}
