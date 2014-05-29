@@ -29,9 +29,9 @@
     <div class="section first">
       <a name="s1" class="anchor"></a>
       <div class="container">
-       <?php print $messages; ?>
+           <?php print $messages; ?>
        <?php if (!empty($tabs['#primary'])): ?><div class="tabs-wrapper clearfix"><?php print render($tabs); ?></div><?php endif; ?>
-       <?php print render($page['section_first']); ?>
+       <h1>Winnebago has a story and what a story it is</h1>
       </div>
     </div>
     <?php if ($page['section_second']): ?><div class="section second"><a name="s2" class="anchor"></a><div class="container"><?php print render($page['section_second']); ?></div></div><?php endif; ?>

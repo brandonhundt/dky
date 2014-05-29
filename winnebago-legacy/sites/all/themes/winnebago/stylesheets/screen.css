@@ -186,7 +186,7 @@ ul.tips {
 /* line 4, ../sass/components/_sections.scss */
 .front .section.first {
   background: url(../images/bg_section1.png) no-repeat top center;
-  margin-top: 30px;
+  margin-top: 95px;
   height: 429px;
 }
 /* line 9, ../sass/components/_sections.scss */
@@ -195,14 +195,19 @@ ul.tips {
 }
 
 /* line 11, ../sass/components/_sections.scss */
+.section.first h1 {
+  display: none;
+}
+
+/* line 12, ../sass/components/_sections.scss */
 .section.second {
   background: url(../images/bg_section2.png) repeat top center;
 }
-/* line 14, ../sass/components/_sections.scss */
+/* line 15, ../sass/components/_sections.scss */
 .section.second #block-views-slideshow-block {
   width: 100%;
 }
-/* line 17, ../sass/components/_sections.scss */
+/* line 18, ../sass/components/_sections.scss */
 .section.second #block-views-slideshow-block h2 {
   background: url(../images/hdr_looking-back.png) no-repeat 0 0;
   width: 900px;
@@ -213,13 +218,13 @@ ul.tips {
   text-indent: -9999px;
 }
 
-/* line 28, ../sass/components/_sections.scss */
+/* line 29, ../sass/components/_sections.scss */
 .section.third {
   background: url(../images/bg_section3.png) repeat top center;
   font-family: "Domine", "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
   height: 574px;
 }
-/* line 30, ../sass/components/_sections.scss */
+/* line 31, ../sass/components/_sections.scss */
 .section.third h2 {
   background: url(../images/hdr_tell-story.png) no-repeat 0 0;
   width: 900px;
@@ -229,11 +234,11 @@ ul.tips {
   padding: 0;
   text-indent: -9999px;
 }
-/* line 39, ../sass/components/_sections.scss */
+/* line 40, ../sass/components/_sections.scss */
 .section.third img {
   float: right;
 }
-/* line 40, ../sass/components/_sections.scss */
+/* line 41, ../sass/components/_sections.scss */
 .section.third .views-field-field-quote-author {
   background: #f9f7f0;
   padding: 20px;
@@ -243,16 +248,16 @@ ul.tips {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
 }
-/* line 49, ../sass/components/_sections.scss */
+/* line 50, ../sass/components/_sections.scss */
 .section.third .views-field-field-quote-author .quote {
   color: #578a81;
 }
-/* line 50, ../sass/components/_sections.scss */
+/* line 51, ../sass/components/_sections.scss */
 .section.third .views-field-field-quote-author .author {
   margin: 0;
   color: #e36d22;
 }
-/* line 52, ../sass/components/_sections.scss */
+/* line 53, ../sass/components/_sections.scss */
 .section.third .button {
   width: 192px;
   height: 79px;
@@ -261,21 +266,21 @@ ul.tips {
   padding: 0;
   text-indent: -9999px;
 }
-/* line 61, ../sass/components/_sections.scss */
+/* line 62, ../sass/components/_sections.scss */
 .section.third .button.tell-story {
   background: url(../images/btn_write-story.png) no-repeat 0 0;
 }
-/* line 62, ../sass/components/_sections.scss */
+/* line 63, ../sass/components/_sections.scss */
 .section.third .button.read-stories {
   background: url(../images/btn_all-stories.png) no-repeat 0 0;
 }
 
-/* line 64, ../sass/components/_sections.scss */
+/* line 65, ../sass/components/_sections.scss */
 .section.fourth {
   background: #30565b url(../images/bg_section4.png) no-repeat top center;
   height: 501px;
 }
-/* line 65, ../sass/components/_sections.scss */
+/* line 66, ../sass/components/_sections.scss */
 .section.fourth h2 {
   background: url(../images/hdr_join-crew.png) no-repeat 0 0;
   width: 900px;
@@ -285,15 +290,15 @@ ul.tips {
   padding: 0;
   text-indent: -9999px;
 }
-/* line 74, ../sass/components/_sections.scss */
+/* line 75, ../sass/components/_sections.scss */
 .section.fourth img {
   float: right;
 }
-/* line 75, ../sass/components/_sections.scss */
+/* line 76, ../sass/components/_sections.scss */
 .section.fourth h3, .section.fourth p {
   color: #f5f5f5;
 }
-/* line 76, ../sass/components/_sections.scss */
+/* line 77, ../sass/components/_sections.scss */
 .section.fourth .read-more {
   background: url(../images/btn_crew.png) no-repeat 0 0;
   width: 193px;
@@ -307,12 +312,12 @@ ul.tips {
   right: 18px;
 }
 
-/* line 89, ../sass/components/_sections.scss */
+/* line 90, ../sass/components/_sections.scss */
 .section.fifth {
   background: url(../images/bg_section5.png) no-repeat top center;
 }
-/* line 90, ../sass/components/_sections.scss */
-.section.fifth h2 {
+/* line 91, ../sass/components/_sections.scss */
+.section.fifth .field-name-field-section-5-title {
   background: url(../images/hdr_how-far.png) no-repeat 0 0;
   width: 900px;
   height: 88px;
@@ -322,12 +327,12 @@ ul.tips {
   text-indent: -9999px;
 }
 
-/* line 100, ../sass/components/_sections.scss */
+/* line 101, ../sass/components/_sections.scss */
 .section.sixth {
   background: url(../images/bg_section6.png) no-repeat top center;
   height: 642px;
 }
-/* line 101, ../sass/components/_sections.scss */
+/* line 102, ../sass/components/_sections.scss */
 .section.sixth h2 {
   background: url(../images/hdr_then-now.png) no-repeat 0 0;
   width: 900px;
@@ -337,22 +342,22 @@ ul.tips {
   padding: 0;
   text-indent: -9999px;
 }
-/* line 110, ../sass/components/_sections.scss */
+/* line 111, ../sass/components/_sections.scss */
 .section.sixth h3 {
   color: #ebd29e;
   margin-top: 60px;
 }
-/* line 111, ../sass/components/_sections.scss */
+/* line 112, ../sass/components/_sections.scss */
 .section.sixth p {
   color: #f5f5f5;
   margin-top: 10px;
 }
-/* line 112, ../sass/components/_sections.scss */
+/* line 113, ../sass/components/_sections.scss */
 .section.sixth h3, .section.sixth p {
   width: 360px;
   margin-left: 470px;
 }
-/* line 116, ../sass/components/_sections.scss */
+/* line 117, ../sass/components/_sections.scss */
 .section.sixth .s6-btn {
   width: 175px;
   height: 61px;
@@ -362,24 +367,24 @@ ul.tips {
   text-indent: -9999px;
   cursor: pointer;
 }
-/* line 126, ../sass/components/_sections.scss */
+/* line 127, ../sass/components/_sections.scss */
 .section.sixth .tribute {
   background: url(../images/btn_see-tribute.png) no-repeat 0 0;
   float: left;
   margin: 0 10px 0 0;
 }
-/* line 127, ../sass/components/_sections.scss */
+/* line 128, ../sass/components/_sections.scss */
 .section.sixth .brave {
   background: url(../images/btn_see-brave.png) no-repeat 0 0;
   float: right;
 }
 
-/* line 130, ../sass/components/_sections.scss */
+/* line 131, ../sass/components/_sections.scss */
 .section.seventh {
   background: url(../images/bg_section7.png) repeat top center;
   height: 450px;
 }
-/* line 131, ../sass/components/_sections.scss */
+/* line 132, ../sass/components/_sections.scss */
 .section.seventh h2 {
   background: url(../images/hdr_ads.png) no-repeat 0 0;
   width: 900px;
@@ -389,12 +394,12 @@ ul.tips {
   padding: 0;
   text-indent: -9999px;
 }
-/* line 140, ../sass/components/_sections.scss */
+/* line 141, ../sass/components/_sections.scss */
 .section.seventh .content {
   margin: 20px 0 0;
 }
 
-/* line 143, ../sass/components/_sections.scss */
+/* line 144, ../sass/components/_sections.scss */
 .container {
   width: 900px;
   margin: 0 auto;
@@ -669,30 +674,51 @@ div#colorbox #cboxContent {
 }
 
 /* line 2, ../sass/components/_footer.scss */
+#footer p {
+  text-align: center;
+}
+/* line 3, ../sass/components/_footer.scss */
 #footer h2 {
   display: none;
 }
-/* line 4, ../sass/components/_footer.scss */
+/* line 5, ../sass/components/_footer.scss */
 #footer ul {
   margin: 0;
   padding: 0;
 }
-/* line 8, ../sass/components/_footer.scss */
+/* line 9, ../sass/components/_footer.scss */
 #footer ul li {
   margin: 0;
   padding: 0;
 }
-/* line 9, ../sass/components/_footer.scss */
+/* line 10, ../sass/components/_footer.scss */
 #footer ul li.leaf {
   list-style: none;
   font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   text-align: center;
 }
-/* line 10, ../sass/components/_footer.scss */
+/* line 11, ../sass/components/_footer.scss */
 #footer ul li.leaf a {
   color: #578a81;
 }
-/* line 11, ../sass/components/_footer.scss */
+/* line 12, ../sass/components/_footer.scss */
 #footer ul li.leaf a:hover {
   color: #e36d22;
+}
+
+/* line 3, ../sass/components/_beforeafter.scss */
+.first .field-name-field-section-5-title,
+.first .field-name-field-before-after-image {
+  display: none;
+}
+
+/* line 6, ../sass/components/_beforeafter.scss */
+.field-name-field-before-after-image {
+  margin: 15px 56px;
+  width: 770px;
+  border: 5px solid white;
+}
+/* line 11, ../sass/components/_beforeafter.scss */
+.field-name-field-before-after-image .twentytwenty-overlay {
+  display: none;
 }

@@ -3,11 +3,12 @@
 .section {display: block; position: relative;}
 .front .section.first {
 	background: url(../images/bg_section1.png) no-repeat top center;
-	margin-top: 30px;
+	margin-top: 95px;
 	height: 429px;
 
 	.field-type-text {display: none;}
 }
+ .section.first h1 {display: none;}
 .section.second {
 	background: url(../images/bg_section2.png) repeat top center;
 
@@ -87,7 +88,7 @@
 		}
 }
 .section.fifth {background: url(../images/bg_section5.png) no-repeat top center;
-		h2 {		
+		.field-name-field-section-5-title {		
 			background: url(../images/hdr_how-far.png) no-repeat 0 0;
 			width: 900px;
 			height: 88px;
