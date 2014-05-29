@@ -3,12 +3,13 @@
 .section {display: block; position: relative;}
 .front .section.first {
 	background: url(../images/bg_section1.png) no-repeat top center;
-	margin-top: 95px;
 	height: 429px;
+	margin-top: 95px;
 
 	.field-type-text {display: none;}
+	 h1 {display: none;}
 }
- .section.first h1 {display: none;}
+.section.first {margin-top: 125px;}
 .section.second {
 	background: url(../images/bg_section2.png) repeat top center;
 
