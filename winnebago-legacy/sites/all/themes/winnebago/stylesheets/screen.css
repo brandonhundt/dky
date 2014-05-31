@@ -490,11 +490,16 @@ nav.main-menu ul li a:hover, nav.main-menu ul li a:active {
 }
 
 /* line 1, ../sass/components/_slideshow.scss */
+#block-views-slideshow-block {
+  position: relative;
+}
+
+/* line 3, ../sass/components/_slideshow.scss */
 .views_slideshow {
   position: relative;
 }
 
-/* line 5, ../sass/components/_slideshow.scss */
+/* line 7, ../sass/components/_slideshow.scss */
 .slide-description {
   position: absolute;
   top: 0px;
@@ -505,7 +510,7 @@ nav.main-menu ul li a:hover, nav.main-menu ul li a:active {
   z-index: 20;
 }
 
-/* line 15, ../sass/components/_slideshow.scss */
+/* line 17, ../sass/components/_slideshow.scss */
 .rotation {
   transform: rotate(4.5deg);
   -webkit-transform: rotate(4.5deg);
@@ -516,22 +521,22 @@ nav.main-menu ul li a:hover, nav.main-menu ul li a:active {
   width: 180px;
 }
 
-/* line 25, ../sass/components/_slideshow.scss */
+/* line 27, ../sass/components/_slideshow.scss */
 .field_slide_title {
   font-size: 16px;
 }
 
-/* line 26, ../sass/components/_slideshow.scss */
+/* line 28, ../sass/components/_slideshow.scss */
 .field_slide_description {
   font-size: 15px;
 }
 
-/* line 31, ../sass/components/_slideshow.scss */
+/* line 33, ../sass/components/_slideshow.scss */
 .views-slideshow-controls-text-pause {
   display: none;
 }
 
-/* line 33, ../sass/components/_slideshow.scss */
+/* line 35, ../sass/components/_slideshow.scss */
 #views_slideshow_controls_text_previous_slideshow-block a,
 #views_slideshow_controls_text_next_slideshow-block a {
   position: absolute;
@@ -545,19 +550,19 @@ nav.main-menu ul li a:hover, nav.main-menu ul li a:active {
   z-index: 40;
 }
 
-/* line 44, ../sass/components/_slideshow.scss */
+/* line 46, ../sass/components/_slideshow.scss */
 #views_slideshow_controls_text_previous_slideshow-block a {
   background: url(../images/bg_arrow-orange-left.png) no-repeat 0 0;
   left: -29px;
 }
 
-/* line 45, ../sass/components/_slideshow.scss */
+/* line 47, ../sass/components/_slideshow.scss */
 #views_slideshow_controls_text_next_slideshow-block a {
   background: url(../images/bg_arrow-orange-rt.png) no-repeat 0 0;
   right: -29px;
 }
 
-/* line 47, ../sass/components/_slideshow.scss */
+/* line 49, ../sass/components/_slideshow.scss */
 #views_slideshow_slide_counter_slideshow-block {
   text-align: right;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
@@ -567,6 +572,11 @@ nav.main-menu ul li a:hover, nav.main-menu ul li a:active {
   right: 75px;
   bottom: 20px;
   position: absolute;
+}
+
+/* line 52, ../sass/components/_slideshow.scss */
+#cboxTitle {
+  display: none !important;
 }
 
 /* line 1, ../sass/components/_slider.scss */
@@ -669,7 +679,12 @@ div#colorbox #cboxContent {
 .view-stories .views-field-created .field-content {
   display: inline-block;
 }
-/* line 18, ../sass/components/_stories.scss */
+/* line 17, ../sass/components/_stories.scss */
+.view-stories img {
+  float: right;
+  margin: 0 0 15px 15px;
+}
+/* line 19, ../sass/components/_stories.scss */
 .view-stories .pager a {
   background: #bfd553;
   color: #fff;

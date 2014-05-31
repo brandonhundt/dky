@@ -1,3 +1,5 @@
+#block-views-slideshow-block {position: relative;}
+
 .views_slideshow {
 	position: relative;
 }
@@ -46,3 +48,5 @@
 
 #views_slideshow_slide_counter_slideshow-block {text-align: right; font-family: $opensanscond; font-size: 22px; color: $orange; font-weight: bold; right: 75px;
 bottom: 20px; position: absolute;}
+
+#cboxTitle {display: none !important;}
