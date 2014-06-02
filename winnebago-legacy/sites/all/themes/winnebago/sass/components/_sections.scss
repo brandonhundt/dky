@@ -2,14 +2,13 @@
 
 .section {display: block; position: relative;}
 .front .section.first {
-	background: url(../images/bg_section1.png) no-repeat top center;
-	height: 429px;
+	background: url(../images/bg_section1.jpg) no-repeat top center;
 	margin-top: 95px;
+	height: 429px;
 
 	.field-type-text {display: none;}
-	 h1 {display: none;}
 }
-.section.first {margin-top: 125px;}
+ .section.first h1 {display: none;}
 .section.second {
 	background: url(../images/bg_section2.png) repeat top center;
 
@@ -63,7 +62,7 @@
 		.button.tell-story {background: url(../images/btn_write-story.png) no-repeat 0 0;}
 		.button.read-stories {background: url(../images/btn_all-stories.png) no-repeat 0 0;}
 }
-.section.fourth {background: #30565b url(../images/bg_section4.png) no-repeat top center; height: 501px;
+.section.fourth {background: #30565b url(../images/bg_section4.jpg) no-repeat top center; height: 501px;
 		h2 {		
 			background: url(../images/hdr_join-crew.png) no-repeat 0 0;
 			width: 900px;
@@ -88,7 +87,7 @@
 			right: 18px;
 		}
 }
-.section.fifth {background: url(../images/bg_section5.png) no-repeat top center;
+.section.fifth {background: url(../images/bg_section5.jpg) no-repeat top center;
 		.field-name-field-section-5-title {		
 			background: url(../images/hdr_how-far.png) no-repeat 0 0;
 			width: 900px;
@@ -99,7 +98,7 @@
 			text-indent: -9999px;
 		}
 }
-.section.sixth {background: url(../images/bg_section6.png) no-repeat top center; height: 642px;
+.section.sixth {background: url(../images/bg_section6.jpg) no-repeat top center; height: 642px;
 		h2 {		
 			background: url(../images/hdr_then-now.png) no-repeat 0 0;
 			width: 900px;
