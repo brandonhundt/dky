@@ -7,7 +7,7 @@
   <?php print $head; ?>
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
-  <title><?php print $head_title; ?></title>
+  <title>My Winnebago Story</title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:400italic,700italic,400,700,800|Raleway:900,800|Domine' rel='stylesheet' type='text/css'>
